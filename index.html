@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- ✅ Responsive scaling -->
+  <title>orlando</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <h1>WEEK 5 ASSIGNMENT</h1>
+    
+    <!-- Input and Decision -->
+    <section>
+      <h2>Variables & Conditionals</h2>
+      <label for="userName">Enter your name:</label> <!-- ✅ Accessible input -->
+      <input type="text" id="userName" placeholder="Enter your name">
+      <button onclick="greetUser()">Press Me</button>
+      <p id="greeting"></p>
+    </section>
+  
+    <!-- Part 2: Functions -->
+    <section>
+      <h2>Functions</h2>
+      <button onclick="calculateTotal(5, 3)">Summation</button>
+      <p id="totalOutput"></p>
+    </section>
+  
+    <!-- Part 3: Loops -->
+    <section>
+      <h2>Loops</h2>
+      <button onclick="showCountdown()">Start </button>
+      <ul id="countdownList"></ul>
+    </section>
+  
+    <!-- Part 4: DOM Manipulation -->
+    <section>
+      <h2>DOM Manipulation</h2>
+      <button onclick="toggleTheme()">Toggle Theme</button>
+      <p id="domMessage">Click the button to toggle theme!</p>
+    </section>
+  </main>
+  
+  <script src="script.js"></script>
+</body>
+</html>
